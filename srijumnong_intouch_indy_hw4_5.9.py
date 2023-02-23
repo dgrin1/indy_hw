@@ -32,7 +32,7 @@ S = []
 T_int = linspace(5, 500)  # Temperature from 5 K to 500 K for 50 sample points
 for T in T_int:  # Creating a loop for the temperature to be integrated
     b = thetaD / T
-    S.append(gaussint(f, b))  # Using the Gaussian quadrature to integrate the function
+    S.append(gaussint(f, b))  # Using the Gaussian quadrature to integrate the function to the end of the loop
 
 plt.plot(T_int, S, color="red")  # Plotting the integrated interval of the temperature
 plt.xlim(5, 500)  # Adjusting the frame of the graph

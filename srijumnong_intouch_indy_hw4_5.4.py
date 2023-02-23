@@ -26,6 +26,7 @@ plt.plot(x, J(0, x), label="J0")
 plt.plot(x, J(1, x), label="J1")
 plt.plot(x, J(2, x), label="J2")
 plt.xlim(0, 20)  # Adjusting the frame of the graph
+plt.title("The plot of the Bessel functions of J0, J1, and J2")
 plt.xlabel("x")
 plt.ylabel("y")
 plt.legend()

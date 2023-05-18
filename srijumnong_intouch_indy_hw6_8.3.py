@@ -5,6 +5,8 @@ import numpy as np
 from numpy import array, arange
 import matplotlib.pyplot as plt
 
+# a
+
 # Given constants
 sigma = 10
 R = 28  # for r avoiding introducing errors due to parameter names
@@ -50,6 +52,8 @@ plt.title("Lorenz Equations: Plot of y as a function time")
 plt.xlabel("t")
 plt.ylabel("y")
 plt.show()
+
+# b
 
 plt.plot(xpoints, zpoints)
 plt.title("Lorenz Equations: Strange attractor")
